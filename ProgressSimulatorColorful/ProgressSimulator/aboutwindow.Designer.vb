@@ -34,7 +34,7 @@ Partial Class aboutwindow
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(274, 100)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ProgressBar Simulator v1.3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Customizer v1.1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ActionButtons v1.1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Colorful"
+        Me.Label1.Text = "ProgressBar Simulator v1.4" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Customizer v1.3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ActionButtons v1.1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Colorful"
         '
         'Button1
         '

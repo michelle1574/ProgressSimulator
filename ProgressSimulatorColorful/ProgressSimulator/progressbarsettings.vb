@@ -51,4 +51,13 @@
         forecolor.ShowDialog()
         RectangleShape2.FillColor = forecolor.Color
     End Sub
+
+    Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
+        Dim color1 As Color = progresscolor.Color
+        Dim color2 As Color = forecolor.Color
+        progresscolor.Color = color2
+        forecolor.Color = color1
+        RectangleShape2.FillColor = progresscolor.Color
+        RectangleShape1.FillColor = forecolor.Color
+    End Sub
 End Class

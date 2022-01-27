@@ -37,6 +37,7 @@ Partial Class progressbarsettings
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -133,7 +134,7 @@ Partial Class progressbarsettings
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(166, 58)
+        Me.Button3.Location = New System.Drawing.Point(171, 99)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 8
@@ -142,7 +143,7 @@ Partial Class progressbarsettings
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(166, 99)
+        Me.Button4.Location = New System.Drawing.Point(171, 63)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 10
@@ -158,11 +159,21 @@ Partial Class progressbarsettings
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Color in bars:"
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(252, 82)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 11
+        Me.Button5.Text = "Swap"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'progressbarsettings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(378, 167)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button3)
@@ -198,4 +209,5 @@ Partial Class progressbarsettings
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Button5 As System.Windows.Forms.Button
 End Class
