@@ -32,13 +32,13 @@ Partial Class aboutwindow
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(274, 75)
+        Me.Label1.Size = New System.Drawing.Size(274, 100)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ProgressBar Simulator v1.3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Customizer v1.1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ActionButtons v1.1"
+        Me.Label1.Text = "ProgressBar Simulator v1.4" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Customizer v1.3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ActionButtons v1.1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Colorful"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(223, 103)
+        Me.Button1.Location = New System.Drawing.Point(223, 122)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
@@ -49,7 +49,7 @@ Partial Class aboutwindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(310, 138)
+        Me.ClientSize = New System.Drawing.Size(310, 157)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
