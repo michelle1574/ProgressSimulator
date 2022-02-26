@@ -44,12 +44,12 @@
 
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
         progresscolor.ShowDialog()
-        RectangleShape1.FillColor = progresscolor.Color
+        RectangleShape2.FillColor = progresscolor.Color
     End Sub
 
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
         forecolor.ShowDialog()
-        RectangleShape2.FillColor = forecolor.Color
+        RectangleShape1.FillColor = forecolor.Color
     End Sub
 
     Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
