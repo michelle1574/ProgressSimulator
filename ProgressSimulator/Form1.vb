@@ -57,4 +57,26 @@
     Private Sub ButtonActionsToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ButtonActionsToolStripMenuItem.Click
         buttonadditionalactions.ShowDialog()
     End Sub
+
+    Private Sub ResetToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ResetToolStripMenuItem.Click
+        Dim ResetAnswer As DialogResult
+        ResetAnswer = MsgBox("This will reset everything. Continue?", vbYesNo + MsgBoxStyle.Exclamation, "Warning")
+        If ResetAnswer = Windows.Forms.DialogResult.Yes Then
+            Timer1.Interval = 1
+            CheckBox1.Checked = False
+            ProgressBar1.Maximum = 100
+            ProgressBar1.Minimum = 0
+            ProgressBar1.Value = 0
+            allsettings_progresstimercolor.resetstops.Checked = False
+            buttonadditionalactions.resetstops.Checked = False
+            allsettings_progresstimercolor.startbuttonresets.Checked = False
+            buttonadditionalactions.startbuttonresets.Checked = False
+            allsettings_progresstimercolor.stopresets.Checked = False
+            buttonadditionalactions.stopresets.Checked = False
+            ProgressBar1.ForeColor = RectangleShape1.FillColor
+            ProgressBar1.BackColor = RectangleShape2.FillColor
+        Else
+            Exit Sub
+        End If
+    End Sub
 End Class

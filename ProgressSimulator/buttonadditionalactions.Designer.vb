@@ -61,7 +61,7 @@ Partial Class buttonadditionalactions
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(311, 226)
+        Me.Button1.Location = New System.Drawing.Point(134, 101)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 14
@@ -70,7 +70,7 @@ Partial Class buttonadditionalactions
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(230, 226)
+        Me.Button2.Location = New System.Drawing.Point(215, 101)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 15
@@ -81,7 +81,7 @@ Partial Class buttonadditionalactions
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(398, 261)
+        Me.ClientSize = New System.Drawing.Size(302, 136)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.resetstops)

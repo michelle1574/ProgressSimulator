@@ -29,6 +29,8 @@ Partial Class Form1
         Me.ProgressbarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TimerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AllSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ButtonActionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,7 +41,9 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.ButtonActionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RectangleShape2 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,9 +65,9 @@ Partial Class Form1
         '
         'SettingsToolStripMenuItem
         '
-        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProgressbarToolStripMenuItem, Me.TimerToolStripMenuItem, Me.AllSettingsToolStripMenuItem, Me.ButtonActionsToolStripMenuItem})
+        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProgressbarToolStripMenuItem, Me.TimerToolStripMenuItem, Me.AllSettingsToolStripMenuItem, Me.ButtonActionsToolStripMenuItem, Me.ResetToolStripMenuItem})
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.SettingsToolStripMenuItem.Text = "Settings"
         '
         'ProgressbarToolStripMenuItem
@@ -84,10 +88,22 @@ Partial Class Form1
         Me.AllSettingsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
         Me.AllSettingsToolStripMenuItem.Text = "All settings"
         '
+        'ButtonActionsToolStripMenuItem
+        '
+        Me.ButtonActionsToolStripMenuItem.Name = "ButtonActionsToolStripMenuItem"
+        Me.ButtonActionsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.ButtonActionsToolStripMenuItem.Text = "Button additional actions"
+        '
+        'ResetToolStripMenuItem
+        '
+        Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
+        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.ResetToolStripMenuItem.Text = "Reset"
+        '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'HelpToolStripMenuItem
@@ -105,6 +121,7 @@ Partial Class Form1
         '
         'ProgressBar1
         '
+        Me.ProgressBar1.BackColor = System.Drawing.SystemColors.Control
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 67)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(479, 27)
@@ -160,11 +177,34 @@ Partial Class Form1
         Me.CheckBox1.Text = "Inform when stopped."
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'ButtonActionsToolStripMenuItem
+        'RectangleShape2
         '
-        Me.ButtonActionsToolStripMenuItem.Name = "ButtonActionsToolStripMenuItem"
-        Me.ButtonActionsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.ButtonActionsToolStripMenuItem.Text = "Button additional actions"
+        Me.RectangleShape2.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.RectangleShape2.FillColor = System.Drawing.SystemColors.Control
+        Me.RectangleShape2.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.RectangleShape2.Location = New System.Drawing.Point(187, 141)
+        Me.RectangleShape2.Name = "RectangleShape2"
+        Me.RectangleShape2.Size = New System.Drawing.Size(33, 28)
+        Me.RectangleShape2.Visible = False
+        '
+        'RectangleShape1
+        '
+        Me.RectangleShape1.FillColor = System.Drawing.SystemColors.Highlight
+        Me.RectangleShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.RectangleShape1.Location = New System.Drawing.Point(186, 102)
+        Me.RectangleShape1.Name = "RectangleShape1"
+        Me.RectangleShape1.Size = New System.Drawing.Size(33, 29)
+        Me.RectangleShape1.Visible = False
+        '
+        'ShapeContainer1
+        '
+        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer1.Name = "ShapeContainer1"
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape1, Me.RectangleShape2})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(503, 211)
+        Me.ShapeContainer1.TabIndex = 9
+        Me.ShapeContainer1.TabStop = False
         '
         'Form1
         '
@@ -178,6 +218,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.ShapeContainer1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
@@ -207,5 +248,9 @@ Partial Class Form1
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents ButtonActionsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ResetToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RectangleShape2 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
 
 End Class

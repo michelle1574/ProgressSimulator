@@ -10,6 +10,9 @@
         RectangleShape1.FillColor = Form1.ProgressBar1.ForeColor
         progresscolor.Color = RectangleShape1.FillColor
         forecolor.Color = RectangleShape2.FillColor
+        startbuttonresets.Checked = buttonadditionalactions.startbuttonresets.Checked
+        stopresets.Checked = buttonadditionalactions.stopresets.Checked
+        resetstops.Checked = buttonadditionalactions.resetstops.Checked
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click

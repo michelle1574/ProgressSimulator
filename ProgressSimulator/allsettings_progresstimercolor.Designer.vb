@@ -32,6 +32,7 @@ Partial Class allsettings_progresstimercolor
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -45,7 +46,6 @@ Partial Class allsettings_progresstimercolor
         Me.stopresets = New System.Windows.Forms.CheckBox()
         Me.forecolor = New System.Windows.Forms.ColorDialog()
         Me.progresscolor = New System.Windows.Forms.ColorDialog()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -111,7 +111,7 @@ Partial Class allsettings_progresstimercolor
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(392, 293)
+        Me.Button1.Location = New System.Drawing.Point(464, 293)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 9
@@ -120,7 +120,7 @@ Partial Class allsettings_progresstimercolor
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(304, 293)
+        Me.Button2.Location = New System.Drawing.Point(383, 293)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 10
@@ -145,6 +145,15 @@ Partial Class allsettings_progresstimercolor
         Me.GroupBox1.TabIndex = 11
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Progressbar"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(456, 52)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 17
+        Me.Button5.Text = "Swap"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Label5
         '
@@ -257,15 +266,6 @@ Partial Class allsettings_progresstimercolor
         '
         Me.progresscolor.AnyColor = True
         Me.progresscolor.SolidColorOnly = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(456, 52)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 17
-        Me.Button5.Text = "Swap"
-        Me.Button5.UseVisualStyleBackColor = True
         '
         'allsettings_progresstimercolor
         '
