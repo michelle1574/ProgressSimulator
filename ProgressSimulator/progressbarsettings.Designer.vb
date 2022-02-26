@@ -64,7 +64,7 @@ Partial Class progressbarsettings
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(210, 100)
+        Me.Button1.Location = New System.Drawing.Point(12, 58)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
@@ -73,7 +73,7 @@ Partial Class progressbarsettings
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(291, 100)
+        Me.Button2.Location = New System.Drawing.Point(93, 58)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
@@ -84,7 +84,7 @@ Partial Class progressbarsettings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(378, 135)
+        Me.ClientSize = New System.Drawing.Size(184, 92)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.minval)

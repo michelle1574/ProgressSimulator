@@ -6,7 +6,9 @@
         timerInterval.Text = Form1.Timer1.Interval
         maxval.Text = Form1.ProgressBar1.Maximum
         minval.Text = Form1.ProgressBar1.Minimum
-
+        startbuttonresets.Checked = buttonadditionalactions.startbuttonresets.Checked
+        stopresets.Checked = buttonadditionalactions.stopresets.Checked
+        resetstops.Checked = buttonadditionalactions.resetstops.Checked
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click

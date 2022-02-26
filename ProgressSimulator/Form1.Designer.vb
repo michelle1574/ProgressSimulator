@@ -29,6 +29,7 @@ Partial Class Form1
         Me.ProgressbarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TimerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AllSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ButtonActionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,7 +40,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.ButtonActionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,7 +62,7 @@ Partial Class Form1
         '
         'SettingsToolStripMenuItem
         '
-        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProgressbarToolStripMenuItem, Me.TimerToolStripMenuItem, Me.AllSettingsToolStripMenuItem, Me.ButtonActionsToolStripMenuItem})
+        Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProgressbarToolStripMenuItem, Me.TimerToolStripMenuItem, Me.AllSettingsToolStripMenuItem, Me.ButtonActionsToolStripMenuItem, Me.ResetToolStripMenuItem})
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
         Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SettingsToolStripMenuItem.Text = "Settings"
@@ -83,6 +84,12 @@ Partial Class Form1
         Me.AllSettingsToolStripMenuItem.Name = "AllSettingsToolStripMenuItem"
         Me.AllSettingsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
         Me.AllSettingsToolStripMenuItem.Text = "All settings"
+        '
+        'ButtonActionsToolStripMenuItem
+        '
+        Me.ButtonActionsToolStripMenuItem.Name = "ButtonActionsToolStripMenuItem"
+        Me.ButtonActionsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.ButtonActionsToolStripMenuItem.Text = "Button additional actions"
         '
         'ExitToolStripMenuItem
         '
@@ -160,11 +167,11 @@ Partial Class Form1
         Me.CheckBox1.Text = "Inform when stopped."
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'ButtonActionsToolStripMenuItem
+        'ResetToolStripMenuItem
         '
-        Me.ButtonActionsToolStripMenuItem.Name = "ButtonActionsToolStripMenuItem"
-        Me.ButtonActionsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.ButtonActionsToolStripMenuItem.Text = "Button additional actions"
+        Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
+        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.ResetToolStripMenuItem.Text = "Reset"
         '
         'Form1
         '
@@ -207,5 +214,6 @@ Partial Class Form1
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents ButtonActionsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ResetToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

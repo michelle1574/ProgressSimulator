@@ -34,8 +34,8 @@ Partial Class allsettings_progresstimercolor
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.stopresets = New System.Windows.Forms.CheckBox()
         Me.resetstops = New System.Windows.Forms.CheckBox()
+        Me.stopresets = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -101,7 +101,7 @@ Partial Class allsettings_progresstimercolor
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(392, 265)
+        Me.Button1.Location = New System.Drawing.Point(131, 265)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 9
@@ -110,7 +110,7 @@ Partial Class allsettings_progresstimercolor
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(311, 265)
+        Me.Button2.Location = New System.Drawing.Point(50, 265)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 10
@@ -153,16 +153,6 @@ Partial Class allsettings_progresstimercolor
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Button additional actions"
         '
-        'stopresets
-        '
-        Me.stopresets.AutoSize = True
-        Me.stopresets.Location = New System.Drawing.Point(6, 42)
-        Me.stopresets.Name = "stopresets"
-        Me.stopresets.Size = New System.Drawing.Size(188, 17)
-        Me.stopresets.TabIndex = 9
-        Me.stopresets.Text = "Stop button resets the progressbar"
-        Me.stopresets.UseVisualStyleBackColor = True
-        '
         'resetstops
         '
         Me.resetstops.AutoSize = True
@@ -173,11 +163,21 @@ Partial Class allsettings_progresstimercolor
         Me.resetstops.Text = "Reset button stops the progressbar"
         Me.resetstops.UseVisualStyleBackColor = True
         '
+        'stopresets
+        '
+        Me.stopresets.AutoSize = True
+        Me.stopresets.Location = New System.Drawing.Point(6, 42)
+        Me.stopresets.Name = "stopresets"
+        Me.stopresets.Size = New System.Drawing.Size(188, 17)
+        Me.stopresets.TabIndex = 9
+        Me.stopresets.Text = "Stop button resets the progressbar"
+        Me.stopresets.UseVisualStyleBackColor = True
+        '
         'allsettings_progresstimercolor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(479, 300)
+        Me.ClientSize = New System.Drawing.Size(219, 300)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
