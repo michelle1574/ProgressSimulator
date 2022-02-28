@@ -59,7 +59,7 @@ Partial Class timersettings
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Cancel"
+        Me.Button2.Text = "Anuluj"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'timersettings
@@ -75,7 +75,7 @@ Partial Class timersettings
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "timersettings"
-        Me.Text = "Timer settings"
+        Me.Text = "Ustawienia zegara"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

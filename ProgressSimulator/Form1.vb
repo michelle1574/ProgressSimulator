@@ -29,7 +29,7 @@
         If ProgressBar1.Value = ProgressBar1.Maximum Then
             Timer1.Stop()
             If CheckBox1.Checked = True Then
-                MsgBox("Progressbar ended.", vbInformation + vbOKOnly, "Info")
+                MsgBox("Pasek postępu doszedł do końca.", vbInformation + vbOKOnly, "Informacja")
             End If
         End If
     End Sub
@@ -60,7 +60,7 @@
 
     Private Sub ResetToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ResetToolStripMenuItem.Click
         Dim ResetAnswer As DialogResult
-        ResetAnswer = MsgBox("This will reset everything. Continue?", vbYesNo + MsgBoxStyle.Exclamation, "Warning")
+        ResetAnswer = MsgBox("To zresetuje wszystko do ustawień początkowych. Kontynuować?", vbYesNo + MsgBoxStyle.Exclamation, "Uwaga")
         If ResetAnswer = Windows.Forms.DialogResult.Yes Then
             Timer1.Interval = 1
             CheckBox1.Checked = False

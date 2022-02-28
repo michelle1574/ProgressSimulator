@@ -77,11 +77,11 @@ Partial Class allsettings_progresstimercolor
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(35, 52)
+        Me.Label2.Location = New System.Drawing.Point(19, 52)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(69, 13)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Min value"
+        Me.Label2.Text = "Wartość min."
         '
         'maxval
         '
@@ -93,20 +93,20 @@ Partial Class allsettings_progresstimercolor
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(32, 26)
+        Me.Label3.Location = New System.Drawing.Point(10, 29)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 13)
+        Me.Label3.Size = New System.Drawing.Size(78, 13)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Max value"
+        Me.Label3.Text = "Wartość maks."
         '
         'startbuttonresets
         '
         Me.startbuttonresets.AutoSize = True
         Me.startbuttonresets.Location = New System.Drawing.Point(6, 19)
         Me.startbuttonresets.Name = "startbuttonresets"
-        Me.startbuttonresets.Size = New System.Drawing.Size(188, 17)
+        Me.startbuttonresets.Size = New System.Drawing.Size(203, 17)
         Me.startbuttonresets.TabIndex = 8
-        Me.startbuttonresets.Text = "Start button resets the progressbar"
+        Me.startbuttonresets.Text = "Przycisk Start resetuje pasek postępu"
         Me.startbuttonresets.UseVisualStyleBackColor = True
         '
         'Button1
@@ -115,7 +115,7 @@ Partial Class allsettings_progresstimercolor
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Cancel"
+        Me.Button1.Text = "Anuluj"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -144,7 +144,7 @@ Partial Class allsettings_progresstimercolor
         Me.GroupBox1.Size = New System.Drawing.Size(534, 114)
         Me.GroupBox1.TabIndex = 11
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Progressbar"
+        Me.GroupBox1.Text = "Pasek postępu"
         '
         'Button5
         '
@@ -152,26 +152,26 @@ Partial Class allsettings_progresstimercolor
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 17
-        Me.Button5.Text = "Swap"
+        Me.Button5.Text = "Zamień"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(201, 81)
+        Me.Label5.Location = New System.Drawing.Point(207, 76)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(103, 13)
+        Me.Label5.Size = New System.Drawing.Size(118, 13)
         Me.Label5.TabIndex = 14
-        Me.Label5.Text = "Color in progressbar:"
+        Me.Label5.Text = "Kolor w pasku postępu:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(201, 45)
+        Me.Label4.Location = New System.Drawing.Point(215, 48)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 13)
+        Me.Label4.Size = New System.Drawing.Size(110, 13)
         Me.Label4.TabIndex = 15
-        Me.Label4.Text = "Color in bars:"
+        Me.Label4.Text = "Kolor w prostokątach:"
         '
         'Button4
         '
@@ -179,7 +179,7 @@ Partial Class allsettings_progresstimercolor
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 15
-        Me.Button4.Text = "Change"
+        Me.Button4.Text = "Zmień"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
@@ -188,7 +188,7 @@ Partial Class allsettings_progresstimercolor
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 14
-        Me.Button3.Text = "Change"
+        Me.Button3.Text = "Zmień"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'ShapeContainer2
@@ -224,7 +224,7 @@ Partial Class allsettings_progresstimercolor
         Me.GroupBox2.Size = New System.Drawing.Size(200, 54)
         Me.GroupBox2.TabIndex = 12
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Timer"
+        Me.GroupBox2.Text = "Zegar"
         '
         'GroupBox3
         '
@@ -233,19 +233,19 @@ Partial Class allsettings_progresstimercolor
         Me.GroupBox3.Controls.Add(Me.startbuttonresets)
         Me.GroupBox3.Location = New System.Drawing.Point(12, 188)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(200, 100)
+        Me.GroupBox3.Size = New System.Drawing.Size(233, 100)
         Me.GroupBox3.TabIndex = 13
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Button additional actions"
+        Me.GroupBox3.Text = "Dodatkowe akcje przycisków"
         '
         'resetstops
         '
         Me.resetstops.AutoSize = True
         Me.resetstops.Location = New System.Drawing.Point(6, 65)
         Me.resetstops.Name = "resetstops"
-        Me.resetstops.Size = New System.Drawing.Size(191, 17)
+        Me.resetstops.Size = New System.Drawing.Size(221, 17)
         Me.resetstops.TabIndex = 10
-        Me.resetstops.Text = "Reset button stops the progressbar"
+        Me.resetstops.Text = "Przycisk Reset zatrzymuje pasek postępu"
         Me.resetstops.UseVisualStyleBackColor = True
         '
         'stopresets
@@ -253,9 +253,9 @@ Partial Class allsettings_progresstimercolor
         Me.stopresets.AutoSize = True
         Me.stopresets.Location = New System.Drawing.Point(6, 42)
         Me.stopresets.Name = "stopresets"
-        Me.stopresets.Size = New System.Drawing.Size(188, 17)
+        Me.stopresets.Size = New System.Drawing.Size(203, 17)
         Me.stopresets.TabIndex = 9
-        Me.stopresets.Text = "Stop button resets the progressbar"
+        Me.stopresets.Text = "Przycisk Stop resetuje pasek postępu"
         Me.stopresets.UseVisualStyleBackColor = True
         '
         'forecolor
@@ -281,7 +281,7 @@ Partial Class allsettings_progresstimercolor
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "allsettings_progresstimercolor"
-        Me.Text = "All settings"
+        Me.Text = "Wszystkie ustawienia"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

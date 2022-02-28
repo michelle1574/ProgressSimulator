@@ -54,3 +54,17 @@ C:\Users\Michał\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\
 C:\Users\Michał\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.progressbarsettings.resources
 C:\Users\Michał\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.timersettings.resources
 C:\Users\Michał\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.vbproj.GenerateResource.Cache
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.exe
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.xml
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.pdb
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\bin\Debug\ProgressSimulator.exe
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\bin\Debug\ProgressSimulator.pdb
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\bin\Debug\ProgressSimulator.xml
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.aboutwindow.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.allsettings_progresstimercolor.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.buttonadditionalactions.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.Form1.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.Resources.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.progressbarsettings.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.timersettings.resources
+C:\Users\Michał Pustelnik\Downloads\ProgressSimulator-colorful\ProgressSimulator\obj\x86\Debug\ProgressSimulator.vbproj.GenerateResource.Cache

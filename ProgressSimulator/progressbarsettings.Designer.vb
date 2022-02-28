@@ -45,20 +45,20 @@ Partial Class progressbarsettings
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 13)
+        Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Max value"
+        Me.Label1.Text = "Wartość maks."
         '
         'maxval
         '
-        Me.maxval.Location = New System.Drawing.Point(74, 6)
+        Me.maxval.Location = New System.Drawing.Point(96, 6)
         Me.maxval.Name = "maxval"
         Me.maxval.Size = New System.Drawing.Size(100, 20)
         Me.maxval.TabIndex = 1
         '
         'minval
         '
-        Me.minval.Location = New System.Drawing.Point(74, 32)
+        Me.minval.Location = New System.Drawing.Point(96, 32)
         Me.minval.Name = "minval"
         Me.minval.Size = New System.Drawing.Size(100, 20)
         Me.minval.TabIndex = 3
@@ -68,9 +68,9 @@ Partial Class progressbarsettings
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 35)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(69, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Min value"
+        Me.Label2.Text = "Wartość min."
         '
         'Button1
         '
@@ -87,17 +87,17 @@ Partial Class progressbarsettings
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Cancel"
+        Me.Button2.Text = "Anuluj"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(21, 109)
+        Me.Label3.Location = New System.Drawing.Point(9, 104)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(103, 13)
+        Me.Label3.Size = New System.Drawing.Size(118, 13)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Color in progressbar:"
+        Me.Label3.Text = "Kolor w pasku postępu:"
         '
         'ShapeContainer1
         '
@@ -138,7 +138,7 @@ Partial Class progressbarsettings
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Change"
+        Me.Button3.Text = "Zmień"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -147,17 +147,17 @@ Partial Class progressbarsettings
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 10
-        Me.Button4.Text = "Change"
+        Me.Button4.Text = "Zmień"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(21, 68)
+        Me.Label4.Location = New System.Drawing.Point(14, 68)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 13)
+        Me.Label4.Size = New System.Drawing.Size(110, 13)
         Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Color in bars:"
+        Me.Label4.Text = "Kolor w prostokątach:"
         '
         'Button5
         '
@@ -165,7 +165,7 @@ Partial Class progressbarsettings
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 11
-        Me.Button5.Text = "Swap"
+        Me.Button5.Text = "Zamień"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'progressbarsettings
@@ -189,7 +189,7 @@ Partial Class progressbarsettings
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "progressbarsettings"
-        Me.Text = "Progressbar Settings"
+        Me.Text = "Ustawienia paska postępu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
