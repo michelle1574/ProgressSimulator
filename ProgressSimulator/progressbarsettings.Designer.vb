@@ -33,24 +33,24 @@ Partial Class progressbarsettings
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(9, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 13)
+        Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Max value"
+        Me.Label1.Text = "Wartość maks."
         '
         'maxval
         '
-        Me.maxval.Location = New System.Drawing.Point(74, 6)
+        Me.maxval.Location = New System.Drawing.Point(93, 6)
         Me.maxval.Name = "maxval"
-        Me.maxval.Size = New System.Drawing.Size(100, 20)
+        Me.maxval.Size = New System.Drawing.Size(126, 20)
         Me.maxval.TabIndex = 1
         '
         'minval
         '
-        Me.minval.Location = New System.Drawing.Point(74, 32)
+        Me.minval.Location = New System.Drawing.Point(93, 32)
         Me.minval.Name = "minval"
-        Me.minval.Size = New System.Drawing.Size(100, 20)
+        Me.minval.Size = New System.Drawing.Size(126, 20)
         Me.minval.TabIndex = 3
         '
         'Label2
@@ -58,13 +58,13 @@ Partial Class progressbarsettings
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 35)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(69, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Min value"
+        Me.Label2.Text = "Wartość min."
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 58)
+        Me.Button1.Location = New System.Drawing.Point(63, 58)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
@@ -73,18 +73,18 @@ Partial Class progressbarsettings
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(93, 58)
+        Me.Button2.Location = New System.Drawing.Point(144, 58)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Cancel"
+        Me.Button2.Text = "Anuluj"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'progressbarsettings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(184, 92)
+        Me.ClientSize = New System.Drawing.Size(231, 92)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.minval)
@@ -95,7 +95,7 @@ Partial Class progressbarsettings
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "progressbarsettings"
-        Me.Text = "Progressbar Settings"
+        Me.Text = "Ustawienia paska postępu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -34,9 +34,9 @@ Partial Class buttonadditionalactions
         Me.resetstops.AutoSize = True
         Me.resetstops.Location = New System.Drawing.Point(12, 58)
         Me.resetstops.Name = "resetstops"
-        Me.resetstops.Size = New System.Drawing.Size(191, 17)
+        Me.resetstops.Size = New System.Drawing.Size(221, 17)
         Me.resetstops.TabIndex = 13
-        Me.resetstops.Text = "Reset button stops the progressbar"
+        Me.resetstops.Text = "Przycisk Reset zatrzymuje pasek postępu"
         Me.resetstops.UseVisualStyleBackColor = True
         '
         'stopresets
@@ -44,9 +44,9 @@ Partial Class buttonadditionalactions
         Me.stopresets.AutoSize = True
         Me.stopresets.Location = New System.Drawing.Point(12, 35)
         Me.stopresets.Name = "stopresets"
-        Me.stopresets.Size = New System.Drawing.Size(188, 17)
+        Me.stopresets.Size = New System.Drawing.Size(203, 17)
         Me.stopresets.TabIndex = 12
-        Me.stopresets.Text = "Stop button resets the progressbar"
+        Me.stopresets.Text = "Przycisk Stop resetuje pasek postępu"
         Me.stopresets.UseVisualStyleBackColor = True
         '
         'startbuttonresets
@@ -54,23 +54,23 @@ Partial Class buttonadditionalactions
         Me.startbuttonresets.AutoSize = True
         Me.startbuttonresets.Location = New System.Drawing.Point(12, 12)
         Me.startbuttonresets.Name = "startbuttonresets"
-        Me.startbuttonresets.Size = New System.Drawing.Size(188, 17)
+        Me.startbuttonresets.Size = New System.Drawing.Size(203, 17)
         Me.startbuttonresets.TabIndex = 11
-        Me.startbuttonresets.Text = "Start button resets the progressbar"
+        Me.startbuttonresets.Text = "Przycisk Start resetuje pasek postępu"
         Me.startbuttonresets.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(42, 81)
+        Me.Button1.Location = New System.Drawing.Point(70, 81)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 14
-        Me.Button1.Text = "Cancel"
+        Me.Button1.Text = "Anuluj"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(123, 81)
+        Me.Button2.Location = New System.Drawing.Point(151, 81)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 15
@@ -81,7 +81,7 @@ Partial Class buttonadditionalactions
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(210, 114)
+        Me.ClientSize = New System.Drawing.Size(238, 114)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.resetstops)
@@ -91,7 +91,7 @@ Partial Class buttonadditionalactions
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "buttonadditionalactions"
-        Me.Text = "Button additional actions"
+        Me.Text = "Dodatkowe akcje przycisków"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

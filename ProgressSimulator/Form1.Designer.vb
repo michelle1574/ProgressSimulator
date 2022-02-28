@@ -30,6 +30,7 @@ Partial Class Form1
         Me.TimerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AllSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ButtonActionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ResetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -40,7 +41,6 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.ResetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,58 +57,64 @@ Partial Class Form1
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.FileToolStripMenuItem.Text = "File"
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(38, 20)
+        Me.FileToolStripMenuItem.Text = "Plik"
         '
         'SettingsToolStripMenuItem
         '
         Me.SettingsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProgressbarToolStripMenuItem, Me.TimerToolStripMenuItem, Me.AllSettingsToolStripMenuItem, Me.ButtonActionsToolStripMenuItem, Me.ResetToolStripMenuItem})
         Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
         Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SettingsToolStripMenuItem.Text = "Settings"
+        Me.SettingsToolStripMenuItem.Text = "Ustawienia"
         '
         'ProgressbarToolStripMenuItem
         '
         Me.ProgressbarToolStripMenuItem.Name = "ProgressbarToolStripMenuItem"
-        Me.ProgressbarToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.ProgressbarToolStripMenuItem.Text = "Progressbar"
+        Me.ProgressbarToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.ProgressbarToolStripMenuItem.Text = "Pasek postępu"
         '
         'TimerToolStripMenuItem
         '
         Me.TimerToolStripMenuItem.Name = "TimerToolStripMenuItem"
-        Me.TimerToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.TimerToolStripMenuItem.Text = "Timer"
+        Me.TimerToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.TimerToolStripMenuItem.Text = "Zegar"
         '
         'AllSettingsToolStripMenuItem
         '
         Me.AllSettingsToolStripMenuItem.Name = "AllSettingsToolStripMenuItem"
-        Me.AllSettingsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.AllSettingsToolStripMenuItem.Text = "All settings"
+        Me.AllSettingsToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.AllSettingsToolStripMenuItem.Text = "Wszystkie ustawienia"
         '
         'ButtonActionsToolStripMenuItem
         '
         Me.ButtonActionsToolStripMenuItem.Name = "ButtonActionsToolStripMenuItem"
-        Me.ButtonActionsToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.ButtonActionsToolStripMenuItem.Text = "Button additional actions"
+        Me.ButtonActionsToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.ButtonActionsToolStripMenuItem.Text = "Dodatkowe akcje przycisków"
+        '
+        'ResetToolStripMenuItem
+        '
+        Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
+        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(225, 22)
+        Me.ResetToolStripMenuItem.Text = "Resetuj ustawienia"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.ExitToolStripMenuItem.Text = "Wyjdź"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
+        Me.HelpToolStripMenuItem.Text = "Pomoc"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
-        Me.AboutToolStripMenuItem.Text = "About"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Text = "O programie"
         '
         'ProgressBar1
         '
@@ -122,9 +128,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 51)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(63, 13)
+        Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Progressbar"
+        Me.Label1.Text = "Pasek postępu"
         '
         'Timer1
         '
@@ -162,16 +168,10 @@ Partial Class Form1
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(15, 176)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(128, 17)
+        Me.CheckBox1.Size = New System.Drawing.Size(117, 17)
         Me.CheckBox1.TabIndex = 8
-        Me.CheckBox1.Text = "Inform when stopped."
+        Me.CheckBox1.Text = "Poinformuj o końcu"
         Me.CheckBox1.UseVisualStyleBackColor = True
-        '
-        'ResetToolStripMenuItem
-        '
-        Me.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem"
-        Me.ResetToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.ResetToolStripMenuItem.Text = "Reset"
         '
         'Form1
         '
@@ -190,7 +190,7 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Progress Bar Simulator"
+        Me.Text = "Symulator paska postępu"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

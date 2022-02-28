@@ -14,7 +14,7 @@
             Me.Hide()
             Me.Close()
         Else
-            MsgBox("Not a number.", vbOKOnly + vbCritical, "Error")
+            MsgBox("To nie cyfra.", vbOKOnly + vbCritical, "Błąd")
         End If
 
 
